@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>Registration and Login Example using Local Storage</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="col-sm-8 col-sm-offset-2">
+                
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+    <div class="credits text-center">
+        
+        <h3>Had to go through lot of stuff GURU</h3>
+
+
+    </div>
+
+    <script src="angular.min.js"></script>
+    <script src="angular-route.min.js"></script>
+    <script src="angular-cookies.min.js"></script>
+
+    <script src="app.js"></script>
+    <script src="services/authenticate.service.js"></script>
+    <script src="services/user.service.js"></script>
+
+    <script src="home/home.ctrl.js"></script>
+    <script src="login/login.ctrl.js"></script>
+    <script src="register/register.ctrl.js"></script>
+</body>
+</html>
